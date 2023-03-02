@@ -1,0 +1,17 @@
+defines =
+include_dirs =
+cflags =
+cflags_cc = -std=c++11
+target_out_dir = obj
+target_output_name = test
+
+build obj/test.main.o: cxx ../../main.cpp
+build obj/test.test.o: cxx ../../test.cpp
+
+build test: link obj/test.main.o obj/test.test.o obj/test_c.test_c.o || obj/test_c.stamp
+  ldflags =
+  libs =
+  frameworks =
+  swiftmodules =
+  output_extension = 
+  output_dir = .

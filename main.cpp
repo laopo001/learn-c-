@@ -77,6 +77,8 @@ int main()
 {
 
     cout << add() << endl;
+
+    cout << "main" << endl;
     // Test *t_ptr = new Test;
     // cout << t_ptr << endl;
     // cout << &t_ptr << endl;

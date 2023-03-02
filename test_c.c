@@ -1,5 +1,5 @@
 // xx.cpp
 int add()
 {
-    return 123;
+    return 1234;
 }

@@ -1,0 +1,22 @@
+ninja_required_version = 1.7.2
+
+rule gn
+  command = ../../../../temp/gn/out/mac/gn --root=../.. -q --regeneration gen .
+  pool = console
+  description = Regenerating ninja files
+
+build build.ninja: gn
+  generator = 1
+  depfile = build.ninja.d
+
+subninja toolchain.ninja
+
+build test_c: phony obj/test_c.stamp
+build $:test: phony test
+build $:test_c: phony obj/test_c.stamp
+
+build all: phony $
+    test $
+    obj/test_c.stamp
+
+default all

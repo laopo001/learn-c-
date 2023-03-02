@@ -1,0 +1,10 @@
+defines =
+include_dirs =
+cflags =
+cflags_c =
+target_out_dir = obj
+target_output_name = test_c
+
+build obj/test_c.test_c.o: cc ../../test_c.c
+
+build obj/test_c.stamp: stamp obj/test_c.test_c.o

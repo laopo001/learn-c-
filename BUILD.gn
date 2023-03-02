@@ -1,0 +1,13 @@
+executable("test") {
+  sources = [
+    "main.cpp",
+    "test.cpp",
+  ]
+  deps = [ ":test_c" ]
+}
+source_set("test_c") {
+  sources = [
+    "test_c.c",
+    "test_c.h",
+  ]
+}
