@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/c/Users/Administrator/Projects/learn-cpp/apple.cpp
+
+/mnt/c/Users/Administrator/Projects/learn-cpp/main.cpp
+iostream
+-
+iostream
+-
+apple.cpp
+/mnt/c/Users/Administrator/Projects/learn-cpp/apple.cpp
+test_c.h
+/mnt/c/Users/Administrator/Projects/learn-cpp/test_c.h
+
+/mnt/c/Users/Administrator/Projects/learn-cpp/test_c.h
+

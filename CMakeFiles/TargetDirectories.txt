@@ -1,0 +1,4 @@
+/mnt/c/Users/Administrator/Projects/learn-cpp/CMakeFiles/rebuild_cache.dir
+/mnt/c/Users/Administrator/Projects/learn-cpp/CMakeFiles/edit_cache.dir
+/mnt/c/Users/Administrator/Projects/learn-cpp/CMakeFiles/my_project.dir
+/mnt/c/Users/Administrator/Projects/learn-cpp/CMakeFiles/test_c.dir

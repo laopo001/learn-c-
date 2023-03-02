@@ -6,7 +6,11 @@ target_out_dir = obj
 target_output_name = test
 
 build obj/test.main.o: cxx ../../main.cpp
+  source_file_part = main.cpp
+  source_name_part = main
 build obj/test.test.o: cxx ../../test.cpp
+  source_file_part = test.cpp
+  source_name_part = test
 
 build test: link obj/test.main.o obj/test.test.o obj/test_c.test_c.o || obj/test_c.stamp
   ldflags =
